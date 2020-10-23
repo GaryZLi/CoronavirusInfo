@@ -1,0 +1,6 @@
+export const SET_COUNTRY_INFO = 'SET_COUNTRY_INFO';
+export const SET_WORLD_WORD_INFO = 'SET_WORLD_WORD_INFO';
+export const SET_MAP_CENTER = 'SET_MAP_CENTER';
+export const SET_CURRENT_COUNTRY = 'SET_CURRENT_COUNTRY';
+export const SET_CASE_TYPE = 'SET_CASE_TYPE';
+export const SET_MAP_ZOOM = 'SET_MAP_ZOOM';

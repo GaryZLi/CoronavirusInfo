@@ -1,0 +1,12 @@
+
+
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.covidstats:hover {
+  transition: all 0.4s ease-in-out;
+  transform: scale(1.1);
+}
