@@ -18,7 +18,7 @@ import {
 	setMapCenter,
 } from './actions';
 
-import backgroundImage from './picSrc/backgroundImage.jpg';
+// import backgroundImage from './picSrc/backgroundImage.jpg';
 import Coronavirus from 'react-sky';
 
 const useStyles = makeStyles({
@@ -29,7 +29,8 @@ const useStyles = makeStyles({
 		flexDirection: 'column',
 		overflow: 'auto',
 		position: 'relative',
-		backgroundImage: `url(${backgroundImage})`,
+		// backgroundImage: `url(${backgroundImage})`,
+		backgroundColor: 'gray',
 		backgroundRepeat: 'no-repeat',
 		backgroundPosition: 'center',
 		backgroundSize: 'cover',
@@ -41,10 +42,12 @@ const useStyles = makeStyles({
 		display: 'flex',
 		justifyContent: 'space-evenly',
 	},
-	coronavirus: {
-		position: 'fixed',
-		zIndex: 1,
-	}
+	// coronavirus: {
+	// 	position: 'fixed',
+	// 	zIndex: 1,
+
+	// 	backgroundColor: 'red',
+	// }
 });
 
 

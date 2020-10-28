@@ -42,7 +42,7 @@ const DailyStats = ({
                 onClick={() => setCaseType("deaths")}
                 cases={(worldWideInfo.todayDeaths)?.toLocaleString()}
                 total={(worldWideInfo.deaths)?.toLocaleString()}
-                title="Deaths Cases"
+                title="Death Cases"
             />
             <CovidStatsCard
                 color="green"
